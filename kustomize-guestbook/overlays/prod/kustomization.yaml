@@ -12,10 +12,6 @@ commonLabels:
 bases:
   - ../../base
 
-images:
-  - name: gcr.io/google-samples/gb-frontend:v5
-    newTag: "0.2"
-
 replicas:
   - name: guestbook-ui
     count: 3
